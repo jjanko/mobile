@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    tools:context=".ELevActivity" >
+
+    <TextView
+        android:id="@+id/elevText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/lokacija"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/GPSaltitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/elevText"
+        android:layout_marginTop="16dp"
+        android:text="@string/nvGPS"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/visinaZrak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/GPSaltitude"
+        android:text="@string/nvPressure" />
+
+    <Button
+        android:id="@+id/btnElev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/GPSaltitude"
+        android:layout_below="@+id/GPSaltitude"
+        android:layout_marginTop="17dp"
+        android:text="@string/btn_in" />
+    
+    <TextView
+        android:id="@+id/interpolacija"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnElev"
+        android:layout_marginTop="22dp"
+        android:text="@string/in"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/interpolacija"
+        android:layout_marginTop="10dp"
+        android:max="100"
+        android:progress="20" />
+    
+    <TextView
+        android:id="@+id/zaupanjeGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar1"
+        android:layout_marginTop="17dp"
+        android:text="@string/zaupanjeGPS"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/zaupanjeGPS" />
+    
+    <TextView
+        android:id="@+id/zaupanjeZrak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar2"
+        android:text="@string/zaupanjeZrak" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="interval_Lokacija">
+        <item name="5000">vsakih 5 sekund</item>
+        <item name="10000">vsakih 10 sekund</item>
+        <item name="30000">vsakih 30 sekund</item>
+        <item name="60000">vsakih 60 sekund</item>
+    </string-array>
+    <string-array name="interval_Lokacija_vrednosti">
+        <item name="5000">5000</item>
+        <item name="10000">10000</item>
+        <item name="30000">30000</item>
+        <item name="60000">60000</item>
+    </string-array>
+    
+    <string-array name="st_venci">
+        <item name="1">1 venec (4 točke) </item>
+        <item name="2">2 venca (16 točk) </item>
+        <item name="3">3 venci (36 točk) </item>
+    </string-array>
+    <string-array name="st_venci_vrednosti">
+        <item name="1"> 1 </item>
+        <item name="2"> 2 </item>
+        <item name="3"> 3 </item>
+    </string-array>
+    
+    <string-array name="param_r">
+        <item name="0">r=0</item>
+        <item name="1">r=1</item>
+        <item name="2">r=2</item>
+        <item name="3">r=3</item>
+    </string-array>
+    <string-array name="param_r_vrednosti">
+        <item name="0"> 0 </item>
+        <item name="1"> 1 </item>
+        <item name="2"> 2 </item>
+        <item name="2"> 3 </item>
+    </string-array>
+    
+    <string-array name="interp_metoda">
+        <item name="idw"> inverse distance weight </item>
+        <item name="hermite"> hermite spline interpolation </item>
+    </string-array>
+    <string-array name="interp_metoda_vrednosti">
+        <item name="idw"> idw </item>
+        <item name="hermite"> hermite </item>
+    </string-array>
+</resources>

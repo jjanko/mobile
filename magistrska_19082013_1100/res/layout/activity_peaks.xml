@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lokacija"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lokacija" />
+
+    <Button
+        android:id="@+id/btn_shraniVrh"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lokacija"
+        android:text="@string/btn_vrh" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_shraniVrh"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/btn_shraniVrh"
+        android:ems="10"
+        android:inputType="text" />
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/peaksview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/editText1" />
+
+</RelativeLayout>

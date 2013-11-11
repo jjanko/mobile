@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Trenutna točka"
+        android:key="trenutna točka">
+        <ListPreference 
+            android:key="interval_lokacija"
+            android:title="interval posodabljanja lokacije"
+            android:summary="določi razmik med zahtevami za posodobitev trenutne lokacije"
+            android:defaultValue="5000"
+            android:entries="@array/interval_Lokacija"
+            android:entryValues="@array/interval_Lokacija_vrednosti"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Interpolacija"
+        android:key="interp">
+        <ListPreference 
+            android:key="metoda"
+            android:title="metoda interpolacije"
+            android:summary="doloci metodo interpolacije višine za neznane točke"
+            android:defaultValue="idw"
+            android:entries="@array/interp_metoda"
+            android:entryValues="@array/interp_metoda_vrednosti"/>
+        <ListPreference 
+            android:key="venec"
+            android:title="število vencev"
+            android:summary="določi koliko vencev okoliških točk uporabimo pri interpolaciji"
+            android:defaultValue="1"
+            android:entries="@array/st_venci"
+            android:entryValues="@array/st_venci_vrednosti"/>
+        <ListPreference 
+            android:key="r"
+            android:title="interpolacijski parameter"
+            android:summary="parameter za vpliv razdalje pri interpolaciji po metodi IDW"
+            android:defaultValue="1"
+            android:entries="@array/param_r"
+            android:entryValues="@array/param_r_vrednosti"/>
+    </PreferenceCategory>
+</PreferenceScreen>

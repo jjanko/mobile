@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item 
+            android:id="@+id/shraniPot" 
+            android:title="@string/shraniPot">
+        </item>
+        <item 
+            android:id="@+id/uvoziPot" 
+            android:title="@string/uvoziPot">
+        </item>
+	    <item
+	        android:id="@+id/nastavitve"
+	        android:title="@string/nastavitve"/>
+	    <item
+	        android:id="@+id/tocka"
+	        android:title="@string/tocka"/>
+	    <item
+	        android:id="@+id/pripomocki"
+	        android:title="@string/pripomocki"/>
+		<item
+	        android:id="@+id/vrhovi"
+	        android:title="@string/vrhovi"/>
+    </menu>

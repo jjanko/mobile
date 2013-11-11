@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/tocka"
+        android:title="@string/tocka"/>
+    <item
+        android:id="@+id/osm"
+        android:title="@string/osm"/>
+    <item
+        android:id="@+id/pripomocki"
+        android:title="@string/pripomocki"/>
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hiker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Pozdravljeni! Pritisnite tipko "MENU", da 
+        					   se prikaže seznam vseh možnosti! \n\n Želim Vam varen korak!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="nastavitve">Nastavitve</string>
+	<string name="tocka">Lokacija</string>
+	<string name="osm">Zemljevid</string>
+	<string name="vrhovi">Vrhovi</string>
+	<string name="pripomocki">Pripomočki</string>
+	<string name="shraniPot">Shrani pot</string>
+	<string name="uvoziPot">Uvozi pot</string>
+	<string name="lokacija">"lokacija: "</string>
+    <string name="nvGPS">"nadm. višina (GPS): "</string>
+    <string name="nvPressure">"nadm. višina (tlak): "</string>
+    <string name="kompas">azimut</string>
+    <string name="lucka">lučka</string>
+    <string name="kamera">kamera</string>
+    <string name="rSlika">radar. slika</string>
+    <string name="SOS">SOS</string>
+    <string name="in">interpolacija</string>
+    <string name="btn_in">interp</string>
+    <string name="razdalja">razdalja</string>
+    <string name="zaupanjeGPS">zaupanje (GPS):</string>
+    <string name="zaupanjeZrak">zaupanje (zrak):</string>
+    <string name="btn_vrh">dodaj</string>
+</resources>
